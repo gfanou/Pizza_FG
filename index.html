@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pizza form</title>
+</head>
+<body>
+
+    <header id = "showcase">
+
+<h1>BEST PIZZA EVER</h1>
+
+
+<div class="container">
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="firstName">First Name </label>
+            <input name="firstName" id="firstName" type="text" >
+            <br>
+            <label for="lastName"> Last Name </label>
+            <input name="lastName" id="lastName" type="text" >
+            <br>
+            <label for="phoneNumber"> Phone Nbr </label>
+            <input name="phoneNumber" id="phoneNumber" type="text" >
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Pizza</legend>
+            <table>
+
+                <tr>
+                    <th> Size:</th>
+                    <th> Crust:</th>
+                    <th> Veggies- $1.00 each</th>
+                    <th> Meats- $1.50 each</th>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="size" value="Small" data-size="7">Small-$7</td>
+                    <td><input type="radio" name="crust" value="Thin">Thin </td>
+                    <td><input type="checkbox" name="veggies" value="Onion" data-veggies="1">Onion </td>
+                    <td><input type="checkbox" name="meats" value="Pepperoni"data-meats="1.5">Pepperoni </td>
+
+                </tr>
+
+                <tr>
+                <td><input type="radio" name="size" value="Medium" data-size="9">Medium- $9<br> </td>
+                <td><input type="radio" name="crust" value="Pan">Pan<br> </td>
+                <td><input type="checkbox" name="veggies" value="Mushroom"data-veggies="1">Mushroom </td>
+                <td><input type="checkbox" name="meats" value="Steak"data-meats="1.5">Steak </td>
+
+                </tr>
+
+                <tr>
+                <td><input type="radio" name="size" value="Large"data-size="12">Large-$12<br> </td>
+                <td><input type="radio" name="crust" value="Gluten Free">Gluten Free</td>
+                <td><input type="checkbox" name="veggies" value="Tomatoes"data-veggies="1">Tomatoes </td>
+                <td><input type="checkbox" name="meats" value="Bacon"data-meats="1.5">Bacon </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+    </form>
+    <button id = "submit"> Place Order </button>
+
+</div>
+        <p id="message"> </p>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="code.js"></script>
+</header>
+</body>
+</html>

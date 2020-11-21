@@ -1,0 +1,66 @@
+.container{
+
+    border: 1px solid black;
+    width: 900px;
+    padding: 20px;
+    font-family: verdana;
+    margin: auto;
+    background: url(pizza/showcase.jpg) no-repeat center center fixed;
+}
+
+
+p{
+    margin: 160px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    align-content: center;
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+fieldset input{
+    margin-bottom: 8px;
+    margin-right: 5px;
+
+}
+
+th {
+    width: 300px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS";
+
+
+}
+
+
+body
+{
+
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+
+label {
+    float: left;
+    width: 271px;
+    text-align: justify;
+    margin-top: 12px;
+    clear: left;
+
+}
+input, textarea {margin-top: 12px;}
+
+#submit {
+    margin-top: 12px;
+    background-color: greenyellow;
+}
+
